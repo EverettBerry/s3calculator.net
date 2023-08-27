@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web App</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
+    />
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello, world!</h1>
+      <button id="click-me">Click Me!</button>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $("#click-me").click(function () {
+          alert("Button clicked!");
+        });
+      });
+    </script>
+  </body>
+</html>
