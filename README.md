@@ -29,6 +29,11 @@ Prices are pulled daily from each cloud provider via Python. The prices are asse
 # References
 
 - [AWS Pricing API](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/pricing/client/describe_services.html)
+- [AWS S3 Pricing](https://aws.amazon.com/s3/pricing/)
+- [AWS S3 Bulk Pricing API](https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/index.json)
+- [AWS S3 Deep Archive Bulk Pricing API](https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/index.json)
 - [Azure Retail Prices API](https://learn.microsoft.com/en-us/rest/api/cost-management/retail-prices/azure-retail-prices)
 - [Google Cloud Pricing API](https://cloud.google.com/billing/docs/reference/pricing-api/rest)
-- Cloudflare pricing is hardcoded
+- [Google Cloud Storage Pricing](https://cloud.google.com/storage/pricing)
+- [Backblaze B2 S3 compatibility](https://www.backblaze.com/b2/s3-compatibility.html)
+- [Cloudflare R2 S3 compatibility](https://developers.cloudflare.com/r2/api/s3/api/)
